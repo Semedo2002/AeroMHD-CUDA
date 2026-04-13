@@ -1,0 +1,17 @@
+Requirements
+
+This package is built for the newer Python environments (tested on 3.12) .
+
+Hardware: NVIDIA GPU (Compute Capability 6.1+ recommended).
+
+Python: 3.10 to 3.12.
+
+Main Libraries:
+
+cupy-cuda12x (or the version matching your CUDA toolkit).
+
+numpy  2.0 .
+
+matplotlib (for the automated diagnostic suite).
+
+CUDA DLLs: nvidia-cuda-nvrtc-cu12 and nvidia-cuda-runtime-cu12 are installed via pip if you encounter "DLL not found" errors in Python 3.12.
