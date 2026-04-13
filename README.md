@@ -11,8 +11,11 @@ I built and tuned this on a Quadro P1000 .
 
 #Archcitecture
 config.py: Centralized physical constants and grid parameters.
+
 physics.py: Contains the C++ CUDA source for the HLLD Riemann solver, MUSCL reconstruction, and Rankine-Hugoniot math.
+
 solver.py: Handles the time stepping logic (SSP-RK3), the 3D grid management, and diagnostics.
+
 main.py: The entry point for verification suites and production runs.
 
 # Performance & Physics
